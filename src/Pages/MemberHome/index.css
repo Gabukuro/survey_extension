@@ -1,0 +1,29 @@
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.status-options {
+    display: flex!important;
+    justify-content: space-between;
+}
+
+.form-check {
+    display: flex!important;
+    flex-direction: column-reverse;
+}
+
+.form-check:first-child {
+    padding: 0;
+}
+
+.form-check > input {
+    margin: auto!important;
+    cursor: pointer;
+}
+
+.form-check > label {
+    margin: 0!important;
+    cursor: pointer;
+    margin-bottom: 5px!important;
+}
